@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.projects-container {
+  height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (min-width: 767px) {
+  .projects-container {
+    height: 100%;
+  }
+}
+.projects-header {
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  color: #25282b;
+  text-decoration: underline;
+  text-align: center;
+  text-decoration-color: #fdc435;
+  gap: 10px;
+}
+@media screen and (min-width: 767px) {
+  .projects-header {
+    font-size: 37px;
+  }
+}
+.project-card {
+  width: 150px;
+  height: 245px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (min-width: 767px) {
+  .project-card {
+    align-self: center;
+    width: 400px;
+    height: 445px;
+    top: 132px;
+    left: 489px;
+  }
+}
+.project-card-item {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+}
+@media screen and (min-width: 767px) {
+  label {
+    font-size: 16px;
+  }
+}
+.input {
+  width: 120%;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px;
+  padding: 10px;
+}
+@media screen and (min-width: 767px) {
+  .input {
+    width: 400px;
+    height: 40px;
+  }
+}
+.input-content {
+  width: 120%;
+  height: 140px;
+  border-radius: 8px;
+  border: 1px;
+  padding: 10px;
+}
+@media screen and (min-width: 767px) {
+  .input-content {
+    width: 400px;
+    height: 140px;
+  }
+}
+.add-btn {
+  width: 81px;
+  height: 43px;
+  padding: 10px;
+  border-radius: 8px;
+  border: solid 1px transparent;
+  background: #fdc435;
+  align-self: flex-end;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-right: 75px;
+}
+@media screen and (min-width: 767px) {
+  .add-btn {
+    padding: 8px, 24px, 8px, 24px;
+    margin-right: 0px;
+  }
+}
+.add-project-image {
+  width: 100%;
+}
+@media screen and (min-width: 767px) {
+  .add-project-image {
+    height: 100%;
+    width: 100%;
+  }
+}
+.none{
+    display: none;
+}

@@ -1,0 +1,117 @@
+.added-projects-container {
+  height: 100%;
+  background-color: aliceblue;
+  padding: 10px;
+}
+@media screen and (min-width: 767px) {
+  .added-projects-container {
+    height: 100%;
+  }
+}
+.added-projects-head {
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+@media screen and (min-width: 767px) {
+  .added-projects-head {
+    font-size: 47px;
+  }
+}
+.added-projects-card {
+  height: 354px;
+  border-radius: 24px;
+  box-shadow: 3px 4px 4px #f4f4f4;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+@media screen and (min-width: 767px) {
+  .added-projects-card {
+    display: flex;
+    justify-content: space-between;
+    height: 424px;
+    width: 79%;
+  }
+}
+.project-image {
+  height: 100%;
+  width: 50%;
+}
+@media screen and (min-width: 767px) {
+  .project-image {
+    height: 100%;
+    width: 50%;
+  }
+}
+.projects-image-content-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 767px) {
+  .projects-image-content-card {
+    padding: 0px;
+  }
+}
+.added-projects-content {
+  padding: 10px;
+  align-self: center;
+  text-align: left;
+  margin-left: 10px;
+}
+@media screen and (min-width: 767px) {
+  .added-projects-content {
+    width: 50%;
+    margin-left: 20px;
+  }
+}
+.added-projects-title {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+
+  text-align: left;
+}
+@media screen and (min-width: 767px) {
+  .added-projects-title {
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0em;
+  }
+}
+.project-des {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: grey;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 10px;
+}
+@media screen and (min-width: 767px) {
+  .project-des {
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0em;
+  }
+}
+.vew-button {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: solid 2px #000000;
+  border-radius: 24px;
+  margin-top: 20px;
+}
+@media screen and (min-width:767px) {
+    .vew-button{
+        width: 150px;
+  height: 43px;
+    }
+}

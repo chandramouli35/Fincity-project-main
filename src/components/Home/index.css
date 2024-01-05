@@ -1,0 +1,92 @@
+.home-container {
+  height: 100vh;
+  padding-left: 50px;
+}
+.home-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-details-card {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+.home-header {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  color: #fdc435;
+}
+@media screen and (min-width:767px) {
+  .home-header{
+    font-size: 25px;
+  }
+}
+.home-title {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  color: #333333;
+}
+@media screen and (min-width:767px) {
+  .home-title{
+    font-size: 34px;
+  }
+}
+.home-description {
+  font-family: "Roboto";
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+}
+@media screen and (min-width:767px) {
+  .home-description{
+    font-size: 24px;
+  }
+}
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  width: 39%;
+padding-left: 50px;
+}
+@media screen and (min-width:767px) {
+  .button-container{
+    width: 39%;
+  }
+}
+.projects-button {
+  border-radius: 5px;
+  background-color: #fdc435;
+  cursor: pointer;
+  padding: 10px;
+  color: #000000;
+  font-weight: 550;
+  border: solid 1px transparent;
+  margin-right: 20px;
+}
+.linked-button {
+  background-color: #ffffff;
+  border: solid 1.5px #000000;
+  border-radius: 5px;
+  color: #000000;
+  cursor: pointer;
+  font-weight: 550;
+}
+.home-image {
+  height: 400px;
+  margin-left: 40px;
+}
+@media screen and (min-width: 767px) {
+  .home-image {
+    height: 500px;
+    margin-left: 0px;
+  }
+}
+.link{
+  text-decoration: none;
+  color: #000000;
+}

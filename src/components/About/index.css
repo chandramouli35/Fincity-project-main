@@ -1,0 +1,40 @@
+.about-bg-container {
+  padding-top: 10px;
+  height: 90vh;
+}
+.about-container {
+  height: 90%;
+  margin-bottom: 20px;
+}
+.about-page {
+  padding: 10px;
+}
+.hr {
+  width: 90%;
+  border-width: 1.5px;
+}
+@media screen and (min-width: 768px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-page {
+    width: 80%;
+    padding: 20px;
+  }
+}
+.about-heading {
+  color: red;
+  font-family: "Roboto";
+  font-size: 25px;
+  text-align: left;
+  align-self: flex-start;
+  padding: 5px;
+}
+.about-description {
+  color: gray;
+  font-family: "Roboto";
+  font-size: 15px;
+}

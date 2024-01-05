@@ -1,0 +1,49 @@
+.contact-bg-container {
+  padding-top: 10px;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+@media screen and (min-width: 767px) {
+  .contact-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #c9f1f8;
+  border-radius: 10px;
+  width: 300px;
+}
+.contact-card {
+  background-color: rgb(148, 201, 248);
+  border-radius: 7px;
+  padding: 10px;
+}
+@media screen and (min-width:767px) {
+    .contact-card{
+        padding: 15px;
+    }
+}
+.contact-card h1 {
+  font-family: "Roboto";
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.contact-card p {
+  font-family: "Roboto";
+  font-size: 17px;
+  padding-bottom: 15px;
+}
